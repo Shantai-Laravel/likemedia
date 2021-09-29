@@ -1,0 +1,1 @@
+function sendForm(){$("[data-ajax]").unbind(),$("[data-ajax]").submit(function(){return $.ajax({type:"POST",url:$(this).attr("action"),context:document.body,data:$(this).serialize(),success:function(e){"OK"==e&&($(".message-hd-error").fadeOut(),$(".message-hd-success").fadeIn()),"BAD"==e&&($(".message-hd-success").fadeOut(),$(".message-hd-error").fadeIn())}}),!1})}sendForm();

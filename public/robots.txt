@@ -1,0 +1,35 @@
+User-agent: Googlebot
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *%*
+Disallow: */index
+Disallow: */login
+Disallow: */logout
+Disallow: */blog/search/
+Sitemap: https://likemedia.md/sitemap.xml
+
+User-agent: Yandex
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *%*
+Disallow: */index
+Disallow: */login
+Disallow: */logout
+Disallow: */blog/search/
+Sitemap: https://likemedia.md/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *%*
+Disallow: */index
+Disallow: */login
+Disallow: */logout
+Disallow: */blog/search/
+Sitemap: https://likemedia.md/sitemap.xml
